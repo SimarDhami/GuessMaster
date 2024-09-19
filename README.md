@@ -7,9 +7,9 @@ How It Works
 - Number Generation: The script generates a random number n between 1 and 100 using the random.randint() function.
 - User Input: The user is prompted to guess the number.
 - Feedback Loop:
--- If the guessed number is higher than the target, the user is instructed to guess a lower number.
+1. If the guessed number is higher than the target, the user is instructed to guess a lower number.
   
--- If the guessed number is lower than the target, the user is instructed to guess a higher number.
+2. If the guessed number is lower than the target, the user is instructed to guess a higher number.
 
 - Attempt Count: The number of attempts is tracked.
 - Completion: Once the user guesses the correct number, the script displays the number of attempts taken.
